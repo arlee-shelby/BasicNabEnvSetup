@@ -1,0 +1,14 @@
+name: NabEnv
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - hdf5==1.12.2[build=mpi_openmpi_*]
+  - h5py[build=mpi_*]
+  - conda-build
+  - matplotlib
+  - dask
+  - scipy
+  - numba
+prefix: /home/des/miniconda3/envs/NabEnv
