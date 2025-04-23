@@ -29,7 +29,7 @@ Help()
 
 # Set default enviorment name and .yml file name
 EnviormentName="NabEnv"
-EnviormentYAMLName="NabEnv.yml"
+EnviormentYAMLName="BasicNabEnv.yml"
 
 # Get the input options
 while getopts ":hny:" option; do
