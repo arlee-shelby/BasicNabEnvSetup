@@ -9,6 +9,9 @@ if ! command -v conda &> /dev/null; then
     exit 1
 fi
 
+# Make sure not in some activated conda enviorment
+conda deactivate
+
 # Help for options
 Help()
 {
